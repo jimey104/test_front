@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8921',
+  baseURL: 'http://localhost:9090',
   withCredentials: true, // refreshToken이 쿠키로 올 경우 필요
 });
 
